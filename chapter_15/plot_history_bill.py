@@ -24,7 +24,7 @@ model.add(Dense(1,init='uniform',activation='sigmoid'))
 model.compile(loss='binary_crossentropy',optimizer='adam',metrics=['accuracy'])
 
 # fit the model and give the info to variable history
-history = model.fit(X,Y,validation_split=0.33,nb_epoch=200,batch_size=15,verbose=0)
+history = model.fit(X,Y,validation_split=0.33,nb_epoch=200,batch_size=15,verbose=1)
 
 # print the history
 print (history.history.keys())
