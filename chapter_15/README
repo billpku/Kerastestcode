@@ -1,0 +1,5 @@
+Demo for Kears containing:
+1.how to load data
+2.set model
+3.compile and fit model
+4.get plot of the training history to help analysing the model's performance
